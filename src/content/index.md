@@ -1,8 +1,8 @@
 ---
-title: Welcome to My title of the home page
-intro: This is a brief introduction to my site. is has been updated
-content: This is my new content
-footer: This is the footer content. updated
+title: " My title of the home page has been updated"
+intro: my introduction has been updated
+content: this content has been updated
+footer: The footer has been updated
 ---
 
 ## My First Post Content
