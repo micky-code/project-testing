@@ -1,8 +1,7 @@
 backend:
   name: github
-  repo: micky-code/project-testing  # Replace with your GitHub username and repository name
-  branch: main  # The branch to use for content management
-
+  repo: micky-code/project-testing # Replace with your GitHub repository
+  branch: main # Branch to update
 
 media_folder: "public/images" # Folder to store uploaded files
 public_folder: "/images"
