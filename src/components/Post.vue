@@ -1,15 +1,16 @@
 <template>
   <div>
-    <h1>{{ title }}</h1>
-    <div v-html="content"></div>
+    <h2>{{ title }}</h2>
+    <div v-html="content"></div> <!-- Use v-html to render markdown -->
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    title: String,
-    content: String,
-  },
-};
+<script setup>
+import { defineProps } from 'vue';
+
+// Define props using the Composition API
+const props = defineProps({
+  title: String,
+  content: String,
+});
 </script>

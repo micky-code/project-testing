@@ -19,9 +19,11 @@ collections:
 
   - name: "homepage"
     label: "Homepage Content"
-    folder: "src/content" # New folder for homepage content
+    folder: "src/content" # Folder for homepage content
     create: true
     slug: "index" # Fixed slug for the homepage
     fields:
       - { name: "title", label: "Homepage Title", widget: "string" }
+      - { name: "intro", label: "Introduction", widget: "text" }
       - { name: "content", label: "Homepage Content", widget: "markdown" }
+      - { name: "footer", label: "Footer Content", widget: "markdown" }

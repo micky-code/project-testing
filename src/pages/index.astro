@@ -9,8 +9,15 @@ const { data, content } = matter(homepageContent); // Use matter to parse
 
 const post = {
   title: data.title, // Access title from frontmatter
-  content: content,   // Content of the markdown
+  intro: data.intro, // Access introduction
+  content: content,   // Main markdown content
+  footer: data.footer, // Access footer content
 };
 ---
 
+<h1>{post.title}</h1>
+<p>{post.intro}</p>
 <PostList title={post.title} content={post.content} />
+<footer>
+  <div v-html={post.footer}></div> <!-- Render footer content -->
+</footer>
