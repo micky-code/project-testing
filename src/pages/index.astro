@@ -1,9 +1,15 @@
 ---
 import PostList from '../components/Post.vue';
+import { readFile } from 'fs/promises';
+import matter from 'gray-matter'; // Import gray-matter
+
+// Read the markdown file and parse its frontmatter and content
+const homepageContent = await readFile('./src/content/index.md', 'utf-8');
+const { data, content } = matter(homepageContent); // Use matter to parse
 
 const post = {
-  title: 'My First Post',
-  content: '<p>This is my first post content.</p>',
+  title: data.title, // Access title from frontmatter
+  content: content,   // Content of the markdown
 };
 ---
 

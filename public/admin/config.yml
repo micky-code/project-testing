@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: micky-code/project-testing # Replace with your GitHub repository
+  repo: micky-code/project-testing # Your GitHub repository
   branch: main # Branch to update
 
 media_folder: "public/images" # Folder to store uploaded files
@@ -16,3 +16,12 @@ collections:
       - { name: "title", label: "Title", widget: "string" }
       - { name: "date", label: "Date", widget: "datetime" }
       - { name: "body", label: "Body", widget: "markdown" }
+
+  - name: "homepage"
+    label: "Homepage Content"
+    folder: "src/content" # New folder for homepage content
+    create: true
+    slug: "index" # Fixed slug for the homepage
+    fields:
+      - { name: "title", label: "Homepage Title", widget: "string" }
+      - { name: "content", label: "Homepage Content", widget: "markdown" }
