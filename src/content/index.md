@@ -1,8 +1,8 @@
 ---
-title: The home page has been update for today.khioaeh ip wrjgowragrgarwgwagwg
-intro: The introduction has been update for todayabsebdbdssvsv gwg
-content: this content has been updated for todaydbbbbsavdsv
-footer: The footer has been updated for todasssssssssssssrh eyeh5ey
+title: Home page Title
+intro: Introduction
+content: home page content
+footer: Footer content
 ---
 
 ## My First Post Content
