@@ -1,8 +1,8 @@
 ---
-title: " My title of the home page has been updated"
-intro: my introduction has been updated
-content: this content has been updated
-footer: The footer has been updated
+title: The home page has been update for today.
+intro: The introduction has been update for today
+content: this content has been updated for today
+footer: The footer has been updated for today
 ---
 
 ## My First Post Content
