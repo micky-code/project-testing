@@ -1,7 +1,4 @@
 ---
-title: "Welcome to my Blog"
-date: "2024-11-21"
-lang: "en"
+title: "My First Post"
+date: "2024-11-22T00:00:00Z"
 ---
-
-This is the first blog post in English.
